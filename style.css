@@ -303,6 +303,12 @@ button {
   -webkit-transform: translateY(72px);
   transform: translateY(72px);
 }
+#timer {
+  color: rgb(140, 245, 173);
+  font-size: x-large;
+  margin-top: 20px;
+  text-align: center;
+}
 
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
@@ -322,7 +328,7 @@ button {
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid rgb(140, 245, 173); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
@@ -346,6 +352,14 @@ button {
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: rgb(140, 245, 173);
   }
+}
+
+.top-right-parent {
+  position: relative;
+}
+.top-right {
+  position: absolute;
+  z-index: 1099;
 }
