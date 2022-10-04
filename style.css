@@ -393,10 +393,10 @@ button {
     padding-top: 10;
     justify-content: right;
     margin: auto;
-  width: 100%;
-
-
-
+    width: 100%;
+  }
+  h2 {
+    font-size: 62px;
   }
   .sign-up {
     padding-top: 0;
